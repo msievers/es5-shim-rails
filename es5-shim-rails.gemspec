@@ -3,7 +3,8 @@ require File.expand_path('../lib/es5-shim-rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Kris Kowal"]
-  gem.description   = %q{ES5 as implementable on previous engines}
+  gem.description   = %q{Provides compatibility shims so that legacy JavaScript engines behave as closely as possible to ES5.}
+  gem.summary       = %q{ES5 as implementable on previous engines}
   gem.homepage      = "http://github.com/kriskowal/es5-shim"
 
   gem.files         = `git ls-files`.split($\)
